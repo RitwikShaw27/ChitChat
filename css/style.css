@@ -1,0 +1,137 @@
+*{
+   margin: 0px;
+    padding: 0px;
+}
+
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 75px;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(white , violet); 
+}
+
+h1{
+    margin: auto;
+    margin-top: -5px;
+    margin-bottom: 28px;
+    font-size: 30px;
+    color: rgb(250, 250, 250);
+    text-shadow:
+      0 0 4px #fff,
+      0 0 10px #fff,
+      0 0 18px #fff,
+      0 0 38px #f09,
+      0 0 73px #f09,
+      0 0 80px #f09,
+      0 0 94px #f09,
+      0 0 140px #f09;
+    animation: pulsate 0.11s ease-in-out infinite alternate;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 77vw;
+    background-color: rgb(85, 7, 158);
+}
+
+@keyframes pulsate {
+    
+    100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #f09,
+        0 0 80px #f09,
+        0 0 90px #f09,
+        0 0 100px #f09,
+        0 0 150px #f09;
+    
+    }
+    
+    0% {
+  
+      text-shadow:
+      0 0 4px #fff,
+      0 0 10px #fff,
+      0 0 18px #fff,
+      0 0 38px #f09,
+      0 0 73px #f09,
+      0 0 80px #f09,
+      0 0 94px #f09,
+      0 0 140px #f09;
+  
+    }
+}
+
+.container{
+    /* background-color: aqua; */
+    background-image: linear-gradient(white , rgb(75, 2, 75));
+    border-radius: 13px;
+    max-width: 88%;
+    margin: auto;
+    height: 65vh;
+    /* padding: 33px; */
+    overflow-y: auto;
+}
+
+.message{
+    background-color: blanchedalmond;
+    width: 30%;
+    padding: 9px;
+    margin: 13px 16px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.left{
+    float: left;
+    clear: both;
+
+}
+
+.right{
+    float: right;
+    clear: both;
+
+}
+
+#send-container{
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    max-width: 965px;
+    width: 100%;
+}
+
+#messageInp{
+    width: 65%;
+    height: 27px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+}
+
+.btn{
+    border: 2px solid black;
+    border-radius: 60px ;
+    height: 29px;
+    width: 55px;
+}
+
